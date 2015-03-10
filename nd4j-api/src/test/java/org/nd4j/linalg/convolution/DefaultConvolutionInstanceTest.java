@@ -1,0 +1,350 @@
+package org.nd4j.linalg.convolution;
+
+import org.junit.*;
+import static org.junit.Assert.*;
+import org.nd4j.linalg.api.complex.IComplexNDArray;
+import org.nd4j.linalg.api.ndarray.INDArray;
+
+/**
+ * The class <code>DefaultConvolutionInstanceTest</code> contains tests for the class <code>{@link DefaultConvolutionInstance}</code>.
+ *
+ * @generatedBy CodePro at 3/9/15 7:28 PM
+ * @author Mohit
+ * @version $Revision: 1.0 $
+ */
+public class DefaultConvolutionInstanceTest {
+	/**
+	 * Run the IComplexNDArray convn(IComplexNDArray,IComplexNDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_1()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		IComplexNDArray input = null;
+		IComplexNDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		IComplexNDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the IComplexNDArray convn(IComplexNDArray,IComplexNDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_2()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		IComplexNDArray input = null;
+		IComplexNDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		IComplexNDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the IComplexNDArray convn(IComplexNDArray,IComplexNDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_3()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		IComplexNDArray input = null;
+		IComplexNDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		IComplexNDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the IComplexNDArray convn(IComplexNDArray,IComplexNDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_4()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		IComplexNDArray input = null;
+		IComplexNDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		IComplexNDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the INDArray convn(INDArray,INDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_5()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		INDArray input = null;
+		INDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		INDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the INDArray convn(INDArray,INDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_6()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		INDArray input = null;
+		INDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		INDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the INDArray convn(INDArray,INDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_7()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		INDArray input = null;
+		INDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		INDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Run the INDArray convn(INDArray,INDArray,Type,int[]) method test.
+	 *
+	 * @throws Exception
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Test
+	public void testConvn_8()
+		throws Exception {
+		DefaultConvolutionInstance fixture = new DefaultConvolutionInstance();
+		INDArray input = null;
+		INDArray kernel = null;
+		Convolution.Type type = Convolution.Type.FULL;
+		int[] axes = new int[] {};
+
+		INDArray result = fixture.convn(input, kernel, type, axes);
+
+		// add additional test code here
+		// An unexpected exception was thrown in user code while executing this test:
+		//    java.lang.ClassNotFoundException: org.nd4j.linalg.convolution.DefaultConvolutionInstance
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.net.URLClassLoader$1.run(Unknown Source)
+		//       at java.security.AccessController.doPrivileged(Native Method)
+		//       at java.net.URLClassLoader.findClass(Unknown Source)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.UserDefinedClassLoader.loadClass(UserDefinedClassLoader.java:62)
+		//       at java.lang.ClassLoader.loadClass(Unknown Source)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionContextImpl.getClass(ExecutionContextImpl.java:99)
+		//       at com.instantiations.eclipse.analysis.expression.model.SimpleTypeExpression.execute(SimpleTypeExpression.java:205)
+		//       at com.instantiations.eclipse.analysis.expression.model.MethodInvocationExpression.execute(MethodInvocationExpression.java:544)
+		//       at com.instantiations.assist.eclipse.junit.execution.core.ExecutionRequest.execute(ExecutionRequest.java:286)
+		//       at com.instantiations.assist.eclipse.junit.execution.communication.LocalExecutionClient$1.run(LocalExecutionClient.java:158)
+		//       at java.lang.Thread.run(Unknown Source)
+		assertNotNull(result);
+	}
+
+	/**
+	 * Perform pre-test initialization.
+	 *
+	 * @throws Exception
+	 *         if the initialization fails for some reason
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@Before
+	public void setUp()
+		throws Exception {
+		// add additional set up code here
+	}
+
+	/**
+	 * Perform post-test clean-up.
+	 *
+	 * @throws Exception
+	 *         if the clean-up fails for some reason
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	@After
+	public void tearDown()
+		throws Exception {
+		// Add additional tear down code here
+	}
+
+	/**
+	 * Launch the test.
+	 *
+	 * @param args the command line arguments
+	 *
+	 * @generatedBy CodePro at 3/9/15 7:28 PM
+	 */
+	public static void main(String[] args) {
+		new org.junit.runner.JUnitCore().run(DefaultConvolutionInstanceTest.class);
+	}
+}
